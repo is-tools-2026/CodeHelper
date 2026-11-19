@@ -5,7 +5,7 @@ export function registerHello(context: vscode.ExtensionContext) {
         'codehelper.hello',
         () => {
             vscode.window.showInformationMessage(
-                'Hello, World! [Ваше Имя]'
+                'Hello, World! [Лера]'
             );
         }
     );
